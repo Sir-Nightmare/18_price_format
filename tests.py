@@ -26,7 +26,7 @@ class PriceFormatTestCase(unittest.TestCase):
             format_price('qwert1234')
 
     def test_incorrect_list(self):
-        with self.assertRaises(ValueError):
+        with self.assertRaises(TypeError):
             format_price(['123456'])
 
 
