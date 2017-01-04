@@ -1,7 +1,5 @@
 # Price Formatter
 
-##About:
-
 This script converts numbers like 12345.000 or 12345,000 
 into easy-to-read price format 12 345.  
 All numbers like 123.456 will be rounded to  two digits after dot; result: 123.46.
