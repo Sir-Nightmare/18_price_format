@@ -12,6 +12,7 @@ def format_price(price):
         else:
             raise ValueError('Incorrect value')
     price = float(price)
+    price = round(price, 2)
     if price.is_integer():
         return format(price, ',.0f').replace(',', ' ')
     else:
