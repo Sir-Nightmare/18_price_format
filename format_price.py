@@ -6,7 +6,7 @@ def format_price(price):
     if not (isinstance(price, (int, float, str))):
         raise TypeError('Price have to be int, float or str')
     if isinstance(price, str):
-        price_pattern = re.compile(r'\d+[\.,]?\d*$')
+        price_pattern = re.compile(r'-?\d+[\.,]?\d*$')
         if re.match(price_pattern, price):
             price = price.replace(',', r'.')
         else:
