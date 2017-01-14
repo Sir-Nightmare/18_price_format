@@ -2,7 +2,8 @@
 
 This script converts numbers like 12345.000 or 12345,000 
 into easy-to-read price format 12 345.  
-All numbers like 123.456 will be rounded to  two digits after dot; result: 123.46.
+All numbers like 123.456 will be rounded to  two digits after dot; result: 123.46.  
+_Round half to even_ is used (bankers' rounding).
 
 ##Usage:
 **Clone repository:** `git clone https://github.com/Sir-Nightmare/18_price_format.git` 
